@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+} 
+.body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.form {
+    line-height: 1.5;
+    margin: auto;
+    width: 300px;
+    padding: 30px 40px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    
+}
+.h1 {
+    text-align: center;
+}
+.input {
+    width: 100%;
+    padding: 5px;
+    
+}
+.button {
+    width: 100%;
+    padding: 5px;
+}
+.remember {
+    text-align: right;
+}

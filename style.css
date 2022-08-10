@@ -3,18 +3,34 @@
 }
 .main-container {
     margin: 0 auto;
-
+    position: relative;
+    z-index: 2;
 }
 .main-section {
-    background-color: rgb(134, 77, 24);
+    background-color: rgb(103, 40, 4);
+    
 }
 .h1 {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(103, 40, 4);
     color: rgb(220, 196, 21);
+    width: 150px;
+    margin: auto;
     text-align: center;
 }
-.h1::after {
-    border: 1px solid rgb(220, 196, 21);
+.p::before {
+    position: relative;
+    top: -13px;
+    content: '';
+    display: block;
+    border-bottom: 1.5px solid rgb(220, 196, 21);
 }
 .p {
+    position: relative;
+    z-index: 1;
     color: rgba(255, 255, 255, 0.892);
+    width: 98%;
+    margin: 0px auto;
+    
 }

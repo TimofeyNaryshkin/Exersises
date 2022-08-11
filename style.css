@@ -5,25 +5,43 @@ body {
     margin: 0;
     padding: 0;
 }
-.Travolta {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+.cocktail {
+    display: inline-block;
+    padding: 12px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 }
-.overlay {
+.cocktail::after {
+    content: '';
     position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
-}
-.error {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 300px;
-    padding: 20px;
-    margin: 110px auto 0;
-    color: rgb(186, 179, 179);
-    font-size: 120px;
-    text-align: center;
     z-index: 2;
+    width: 70px;
+    height: 70px;
+    left: -40px;
+    bottom: -40px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    outline: #c2b59d dashed 1px;
+    outline-offset: -3px;
+    background: #f7f6f2;
+   }
+.cocktail::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 70px;
+    height: 70px;
+    left: 210px;
+    bottom: 210px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    outline: #c2b59d dashed 1px;
+    outline-offset: -3px;
+    background: #f7f6f2;
+}
+img {
+    background-color: #dad6cf;
+    padding: 4px;
+    border: 2px solid #9d9383;;
 }

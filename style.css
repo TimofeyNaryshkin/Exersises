@@ -1,47 +1,19 @@
-* {
-    box-sizing: border-box;
-}
 body {
     margin: 0;
     padding: 0;
 }
-.cocktail {
-    display: inline-block;
-    padding: 12px;
-    margin: 0;
+.dessert {
+    margin: 15px 30px;
     position: relative;
-    overflow: hidden;
+    display: inline-block;
 }
-.cocktail::after {
-    content: '';
+.img-expand {
     position: absolute;
-    z-index: 2;
-    width: 70px;
-    height: 70px;
-    left: -40px;
-    bottom: -40px;
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-    outline: #c2b59d dashed 1px;
-    outline-offset: -3px;
-    background: #f7f6f2;
-   }
-.cocktail::before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    width: 70px;
-    height: 70px;
-    left: 210px;
-    bottom: 210px;
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-    outline: #c2b59d dashed 1px;
-    outline-offset: -3px;
-    background: #f7f6f2;
-}
-img {
-    background-color: #dad6cf;
-    padding: 4px;
-    border: 2px solid #9d9383;;
+    right: 15px;
+    bottom: 15px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(65, 60, 60);
 }

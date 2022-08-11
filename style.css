@@ -1,19 +1,19 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
+    min-height: 5000px;
 }
-.dessert {
-    margin: 15px 30px;
-    position: relative;
-    display: inline-block;
+.list {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    padding: 10px 70px 10px 10px;
+    background-color: rgb(159, 210, 230);
+    list-style: none;
 }
-.img-expand {
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    height: 30px;
-    width: 30px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(65, 60, 60);
+.list-item {
+    color: rgb(17, 106, 161);
 }

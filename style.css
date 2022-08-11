@@ -5,18 +5,25 @@ body {
     margin: 0;
     padding: 0;
 }
-.card {
+.Travolta {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 50px;
-    left: 50%;
-    transform-origin: 50% 100%;
 }
-.card:hover {
+.overlay {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.error {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 300px;
+    padding: 20px;
+    margin: 110px auto 0;
+    color: rgb(186, 179, 179);
+    font-size: 120px;
+    text-align: center;
     z-index: 2;
-}
-.card-3 {
-    transform: rotate(-15deg);
-}
-.card-ace {
-    transform: rotate(15deg);
 }

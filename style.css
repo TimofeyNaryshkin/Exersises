@@ -1,18 +1,30 @@
 * {
     box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+    margin: 0;
+}
+body {
+    background-color: rgb(248, 246, 242);
+}
+section {
+    background-color: rgb(176, 164, 164);
+    margin: 5px;
+}
+div {
+    background-color: rgb(202, 41, 41);
+    color: white;
+    width: 50px;
+    text-align: center;
 }
 .list {
-    background-color: rgb(145, 23, 145);
-    padding: 10px;
+    background-color: white;
+    padding: 3px;
 }
 li {
     display: inline;
-    padding: 7px;
+    padding: 5px;
 }
 a {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
     text-decoration: underline;
+    color: black;   
 }

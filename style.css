@@ -2,25 +2,18 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(169, 232, 109);
+    background-color: rgb(24, 106, 98);
 }
-.signin {
+.main-section {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 25px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: auto;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 7px 7px 7px 7px;
 }
-.text {
-    width: 75%;
-    margin: auto;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-.login {
-    margin-top: 40px;
-}
-.button {
-    margin-bottom: 40px;
+p {
+    margin: 0;
+    font-size: 25px;
 }

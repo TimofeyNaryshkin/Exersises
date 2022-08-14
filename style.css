@@ -1,30 +1,25 @@
 * {
-    box-sizing: border-box;
-    font-family: Oswald, sans-serif;
-    margin: 0;
+
 }
-body {
-    background-color: rgb(248, 246, 242);
+.main-section {
+    background-color: rgb(246, 236, 218);
+    width: 550px;
 }
-section {
-    background-color: rgb(176, 164, 164);
-    margin: 5px;
+.figure {
+    display: inline-block;
+    border-right: 3px solid rgb(129, 92, 23);
+    padding-right: 10px;
+    margin: 20px;
+    margin-right: 10px;
 }
-div {
-    background-color: rgb(202, 41, 41);
-    color: white;
-    width: 50px;
-    text-align: center;
+.p {
+    display: inline-block;
+    font-size: 30px;
+    width: 140px;
+    vertical-align: top;
+    margin-top: 20px;
+    text-align: left;
 }
-.list {
-    background-color: white;
-    padding: 3px;
-}
-li {
-    display: inline;
-    padding: 5px;
-}
-a {
-    text-decoration: underline;
-    color: black;   
+.text {
+    text-align: right;
 }

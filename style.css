@@ -1,38 +1,18 @@
 * {
     box-sizing: border-box;
 }
-
-.table {
-    border-collapse: collapse;
-    width: 90%;
-    margin: auto;
+.list {
+    background-color: rgb(145, 23, 145);
+    padding: 10px;
+}
+li {
+    display: inline;
+    padding: 7px;
 }
 a {
+    color: white;
     text-decoration: none;
 }
-.month {
-    border-collapse: collapse;
-    width: 90%;
-    margin: auto;
-    border: 1px solid rgb(200, 195, 184);
-    color: inherit;
-}
-.month:hover {
-    background-color: rgb(194, 156, 89);
-    color: white;
-}
-.theader {
-    text-align: center;
-    background-color: rgb(233, 218, 199);
-    border-bottom: none;
-}
-a {
-    display: block;
-    padding: 5px;
-}
-a:visited {
-    color: inherit
-}
-.august {
-    border-top: none;
+a:hover {
+    text-decoration: underline;
 }

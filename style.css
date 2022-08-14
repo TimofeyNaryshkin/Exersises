@@ -1,43 +1,38 @@
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: rgb(13, 44, 124);
-}
-.main-section {
-    background-color: rgb(23, 70, 136);
-    width: 100%;
+
+.table {
+    border-collapse: collapse;
+    width: 90%;
     margin: auto;
-    padding: 15px;
-    border: 0.2px solid rgb(92, 126, 186);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    
 }
-.input {
-    background-color: rgb(14, 52, 90);
-    width: 300px;
-    margin-bottom: 15px;
+a {
+    text-decoration: none;
+}
+.month {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(200, 195, 184);
+    color: inherit;
+}
+.month:hover {
+    background-color: rgb(194, 156, 89);
     color: white;
 }
-.message {
-    overflow: auto;
-    border-style: none;
+.theader {
+    text-align: center;
+    background-color: rgb(233, 218, 199);
+    border-bottom: none;
 }
-.button {
-    margin-bottom: 0;
-    margin-left: 110px;
-    padding: 10px 15px;
-    width: auto;
-    background-color: black;
-    color: rgb(23, 70, 136);
-    font-weight: 600;
-    border-style: none;
+a {
     display: block;
+    padding: 5px;
 }
-label {
-    width: 100px;
-    margin-right: 10px;
-    color: rgb(157, 183, 222);
-    float: left;
-    text-align: right;
+a:visited {
+    color: inherit
+}
+.august {
+    border-top: none;
 }

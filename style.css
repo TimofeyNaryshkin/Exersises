@@ -2,18 +2,42 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(24, 106, 98);
+    background-color: rgb(13, 44, 124);
 }
 .main-section {
-    width: 500px;
-    height: 300px;
+    background-color: rgb(23, 70, 136);
+    width: 100%;
     margin: auto;
-    padding: 25px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 7px 7px 7px 7px;
+    padding: 15px;
+    border: 0.2px solid rgb(92, 126, 186);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
 }
-p {
-    margin: 0;
-    font-size: 25px;
+.input {
+    background-color: rgb(14, 52, 90);
+    width: 300px;
+    margin-bottom: 15px;
+    color: white;
+}
+.message {
+    overflow: auto;
+    border-style: none;
+}
+.button {
+    margin-bottom: 0;
+    margin-left: 110px;
+    padding: 10px 15px;
+    width: auto;
+    background-color: black;
+    color: rgb(23, 70, 136);
+    font-weight: 600;
+    border-style: none;
+    display: block;
+}
+label {
+    width: 100px;
+    margin-right: 10px;
+    color: rgb(157, 183, 222);
+    float: left;
+    text-align: right;
 }

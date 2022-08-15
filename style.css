@@ -1,25 +1,35 @@
 * {
-
+    box-sizing: border-box;
 }
-.main-section {
-    background-color: rgb(246, 236, 218);
-    width: 550px;
+ul {
+    text-align: center;
+    margin: 0;
 }
-.figure {
+body {
+    margin: 0;
+}
+.button {
     display: inline-block;
-    border-right: 3px solid rgb(129, 92, 23);
-    padding-right: 10px;
-    margin: 20px;
-    margin-right: 10px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
 }
-.p {
-    display: inline-block;
-    font-size: 30px;
-    width: 140px;
-    vertical-align: top;
-    margin-top: 20px;
-    text-align: left;
+.button:hover {
+    background-color: orange;
+    color: white;
 }
-.text {
-    text-align: right;
+.arrows {
+    width: 80px;
+    border-radius: 20px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
 }
